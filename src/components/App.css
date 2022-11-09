@@ -4,15 +4,22 @@
   grid-template-columns: 250px auto;
   height: 100vh;
   overflow: scroll;
+  background-color: #7393B3;
+  color: black;
 }
 
 header {
   display: flex;
   justify-content: space-between;
   background-color: black;
-  color: white;
+  color: #e6e6fa;
   grid-column: 1 / span 2;
   padding: 10px 5px;
+  height: 30px;
+  font-style: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  text-shadow: 1px 1px 1px white;
 }
 
 form {
@@ -20,22 +27,31 @@ form {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  align-items: center;
 }
 
 form input,
 form textarea {
   margin-bottom: 10px;
-  width: 300px;
+  width: 500px;
+  padding: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
 }
 
 nav,
 article {
   height: 100%;
-  padding: 10px;
+  padding: 15px;
 }
 
 nav {
-  background-color: #dee9ff;
+  background-color: #e6e6fa;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 200%;
+  padding: 15px;
 }
 
 nav p:hover {
@@ -45,12 +61,40 @@ nav p:hover {
 
 article .date {
   font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  color: white;
 }
 
 article .body {
   white-space: break-spaces;
+  width: 400px; 
+  margin: auto; 
+  padding: 20px;
+  border-style: solid;
+  border-color: #B6C7D6;
+  border-radius: 20px;
+  background-color: #EAF0F6;
+  margin: auto;
+  width: 640px; 
+  padding: 50px;
+  color: #2E475D;
 }
 
+article .title{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+  border-style: solid;
+  border-color: #B6C7D6;
+  border-radius: 20px;
+  background-color: #EAF0F6;
+  margin: auto;
+  width: 640px; 
+  padding: 5px;
+  color: #2E475D;
+}
 .error {
   background-color: red;
   color: gold;

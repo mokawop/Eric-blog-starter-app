@@ -5,8 +5,9 @@ export default function Article({ article }) {
         <p>No article selected</p>
       ) : (
         <section>
-          <h2>{article.title}</h2>
           <p className="date">{`Posted: ${article.date}`}</p>
+          <h2 className = "title">{article.title}</h2>
+          
           <p className="body">{article.body}</p>
         </section>
       )}
